@@ -135,39 +135,37 @@
         </div>
     </section>
 
-    <section id="contact" class="py-20 bg-nexo-light/30">
-        <div class="max-w-3xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold text-nexo-dark mb-8">Ready to upgrade your business?</h2>
-            <div class="bg-white p-8 rounded-xl shadow-lg border border-nexo-light">
-                <form class="space-y-4 text-left">
-                    <div>
-                        <label class="block text-sm font-medium text-nexo-slate mb-1">Name</label>
-                        <input type="text" class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition" placeholder="John Doe">
-                    </div>
-                    <div>
-                        <label class="block text-sm font-medium text-nexo-slate mb-1">Email</label>
-                        <input type="email" class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition" placeholder="john@company.com">
-                    </div>
-                     <div>
-                        <label class="block text-sm font-medium text-nexo-slate mb-1">Interest</label>
-                        <select class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition bg-white">
-                            <option>Consulting</option>
-                            <option>Hardware (Lenovo)</option>
-                            <option>Software Development</option>
-                            <option>Other</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label class="block text-sm font-medium text-nexo-slate mb-1">Message</label>
-                        <textarea rows="4" class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition" placeholder="Tell us about your needs..."></textarea>
-                    </div>
-                    <button type="button" class="w-full py-3 px-4 bg-nexo-dark hover:bg-nexo-slate text-white rounded-md font-bold transition duration-200">
-                        Send Message
-                    </button>
-                </form>
-            </div>
-        </div>
-    </section>
+<form action="https://formspree.io/f/mblwbwwb" method="POST" class="space-y-4 text-left">
+    
+    <div>
+        <label class="block text-sm font-medium text-nexo-slate mb-1">Name</label>
+        <input type="text" name="name" required class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition" placeholder="John Doe">
+    </div>
+
+    <div>
+        <label class="block text-sm font-medium text-nexo-slate mb-1">Email</label>
+        <input type="email" name="email" required class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition" placeholder="john@company.com">
+    </div>
+
+    <div>
+        <label class="block text-sm font-medium text-nexo-slate mb-1">Interest</label>
+        <select name="interest" class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition bg-white">
+            <option value="Consulting">Consulting</option>
+            <option value="Hardware">Hardware (Lenovo)</option>
+            <option value="Software">Software Development</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+
+    <div>
+        <label class="block text-sm font-medium text-nexo-slate mb-1">Message</label>
+        <textarea name="message" rows="4" required class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition" placeholder="Tell us about your needs..."></textarea>
+    </div>
+
+    <button type="submit" class="w-full py-3 px-4 bg-nexo-dark hover:bg-nexo-slate text-white rounded-md font-bold transition duration-200">
+        Send Message
+    </button>
+</form>
 
     <footer class="bg-nexo-dark text-nexo-light py-12 border-t border-nexo-light/10">
         <div class="max-w-7xl mx-auto px-4">
