@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexogen IT Solutions | Optimize. Equip. Build.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        nexo: {
+                            light: '#DDD5D6',  // Color 1
+                            mint: '#56E0B6',   // Color 2 (Main Accent)
+                            dark: '#363C54',   // Color 3 (Main Brand)
+                            slate: '#51678A',  // Color 4
+                            teal: '#5DA08D',   // Color 5
+                            grey: '#99AAC0',   // Color 6
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="font-sans antialiased text-nexo-dark bg-white">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-sm border-b border-nexo-light/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <div class="w-8 h-8 bg-nexo-dark rounded flex items-center justify-center text-nexo-mint font-bold text-xl">N</div>
+                    <span class="font-bold text-xl tracking-tight text-nexo-dark">NEXOGEN</span>
+                </div>
+                
+                <div class="flex items-center">
+                    <a href="#contact" class="px-5 py-2 rounded-full bg-nexo-dark text-white hover:bg-nexo-slate transition font-medium shadow-md hover:shadow-lg">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative bg-nexo-dark pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-cover bg-center" 
+             style="background-image: url('hero.jpg');">
+        
+        <div class="absolute inset-0 bg-nexo-dark/90"></div>
+        
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-nexo-mint/10 blur-3xl z-0"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight mb-6">
+                Optimize. <span class="text-nexo-mint">Equip.</span> Build.
+            </h1>
+            <p class="mt-4 text-xl text-nexo-light max-w-2xl mx-auto font-light">
+                Nexogen IT Solutions bridges the gap between strategy and execution. 
+                From Lenovo infrastructure to custom software development, we power your growth.
+            </p>
+            <div class="mt-10 flex justify-center gap-4">
+                <a href="#contact" class="px-8 py-4 border border-transparent text-lg font-semibold rounded-md text-nexo-dark bg-nexo-mint hover:bg-white transition shadow-lg shadow-nexo-mint/20">
+                    Start Your Transformation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-base text-nexo-teal font-semibold tracking-wide uppercase">Our Expertise</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-nexo-dark sm:text-4xl">
+                    Three Pillars of Modern Business
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                
+                <div class="relative group p-8 bg-white border border-nexo-light rounded-2xl hover:shadow-xl hover:border-nexo-mint transition-all duration-300">
+                    <div class="w-14 h-14 bg-nexo-dark/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-nexo-mint transition-colors duration-300">
+                        <svg class="w-7 h-7 text-nexo-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-nexo-dark mb-3">Consulting Solutions</h3>
+                    <p class="text-nexo-slate leading-relaxed">
+                        We don't just advise; we optimize. Specializing in the software industry, we analyze your business processes and implement intelligent automation to eliminate bottlenecks.
+                    </p>
+                    <ul class="mt-6 space-y-2 text-sm text-nexo-slate font-medium">
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-nexo-mint rounded-full mr-2"></span>Process Optimization</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-nexo-mint rounded-full mr-2"></span>Workflow Automation</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-nexo-mint rounded-full mr-2"></span>Tech Strategy</li>
+                    </ul>
+                </div>
+
+                <div class="relative group p-8 bg-white border border-nexo-light rounded-2xl hover:shadow-xl hover:border-nexo-mint transition-all duration-300">
+                    <div class="w-14 h-14 bg-nexo-dark/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-nexo-mint transition-colors duration-300">
+                        <svg class="w-7 h-7 text-nexo-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-nexo-dark mb-3">Hardware Solutions</h3>
+                    <p class="text-nexo-slate leading-relaxed">
+                        As your dedicated partner, we handle the entire infrastructure lifecycle. We curate, source, and supply the exact laptops and equipment your workforce needs.
+                    </p>
+                    
+                    <div class="mt-6 pt-4 border-t border-nexo-light flex items-center justify-between">
+                        <span class="text-sm font-bold text-nexo-dark uppercase tracking-wide">Authorized Supplier</span>
+                        <span class="font-extrabold text-lg text-nexo-slate italic">Lenovo</span>
+                    </div>
+                </div>
+
+                <div class="relative group p-8 bg-white border border-nexo-light rounded-2xl hover:shadow-xl hover:border-nexo-mint transition-all duration-300">
+                    <div class="w-14 h-14 bg-nexo-dark/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-nexo-mint transition-colors duration-300">
+                        <svg class="w-7 h-7 text-nexo-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-nexo-dark mb-3">Software Solutions</h3>
+                    <p class="text-nexo-slate leading-relaxed">
+                        Expand your digital capabilities with world-class engineering. We deploy dedicated development capacity to build scalable web and mobile applications.
+                    </p>
+                     <ul class="mt-6 space-y-2 text-sm text-nexo-slate font-medium">
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-nexo-mint rounded-full mr-2"></span>Custom Web Apps</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-nexo-mint rounded-full mr-2"></span>Mobile Development</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-nexo-mint rounded-full mr-2"></span>Scalable Architecture</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-nexo-light/30">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-nexo-dark mb-8">Ready to upgrade your business?</h2>
+            <div class="bg-white p-8 rounded-xl shadow-lg border border-nexo-light">
+                <form class="space-y-4 text-left">
+                    <div>
+                        <label class="block text-sm font-medium text-nexo-slate mb-1">Name</label>
+                        <input type="text" class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-nexo-slate mb-1">Email</label>
+                        <input type="email" class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition" placeholder="john@company.com">
+                    </div>
+                     <div>
+                        <label class="block text-sm font-medium text-nexo-slate mb-1">Interest</label>
+                        <select class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition bg-white">
+                            <option>Consulting</option>
+                            <option>Hardware (Lenovo)</option>
+                            <option>Software Development</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-nexo-slate mb-1">Message</label>
+                        <textarea rows="4" class="w-full rounded-md border border-nexo-light p-3 focus:border-nexo-mint focus:ring-1 focus:ring-nexo-mint outline-none transition" placeholder="Tell us about your needs..."></textarea>
+                    </div>
+                    <button type="button" class="w-full py-3 px-4 bg-nexo-dark hover:bg-nexo-slate text-white rounded-md font-bold transition duration-200">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-nexo-dark text-nexo-light py-12 border-t border-nexo-light/10">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                
+                <div class="flex justify-center md:justify-start">
+                    <div class="flex items-center gap-2">
+                         <div class="w-8 h-8 bg-nexo-mint rounded flex items-center justify-center text-nexo-dark font-bold text-xl">N</div>
+                        <span class="font-bold text-xl tracking-tight text-white">NEXOGEN</span>
+                    </div>
+                </div>
+
+                <div class="text-center text-sm text-nexo-grey">
+                    All rights reserved &copy; 2025, Nexogen IT Solutions Kft
+                </div>
+
+                <div class="text-center md:text-right text-sm text-nexo-grey flex flex-col gap-2">
+                    <p>Alkotás utca 55-61, Budapest, Hungary</p>
+                    <p>Email: <a href="mailto:info@nexogen-it.hu" class="text-nexo-mint hover:text-white transition">info@nexogen-it.hu</a></p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
